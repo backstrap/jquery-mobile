@@ -10,6 +10,7 @@ compiled/
 dist/
 tmp/
 temp/
+vendor/
 *.swp
 .gitignore
 
