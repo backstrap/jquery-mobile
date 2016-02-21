@@ -1,0 +1,42 @@
+{
+  "name": "backstrap/jquery-mobile",
+  "title": "jQuery Mobile",
+  "description": "Touch-Optimized Web Framework for Smartphones & Tablets",
+  "type": "component",
+  "homepage": "http://jquerymobile.com",
+  "authors": [
+    {
+      "name": "jQuery Foundation Inc. and other contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/jquery/jquery-mobile/issues"
+  },
+  "license":  "MIT",
+  "require": {
+    "components/jquery": ">=1.8.3"
+  },
+  "extra": {
+    "component": {
+      "scripts":[
+        "js/jquery.mobile.js"
+      ],
+      "styles":[
+        "css/structure/jquery.mobile.structure.css",
+        "css/themes/default/jquery.mobile.css"
+      ],
+      "files": [
+        "css/structure/*.css",
+        "css/themes/default/*.css",
+        "css/themes/default/images/icons-png/*.png",
+        "css/themes/default/images/icons-svg/*.svg",
+        "css/themes/default/images/ajax-loader.gif"
+      ],
+      "shim": {
+        "deps": [
+          "jquery"
+        ]
+      }
+    }
+  }
+}

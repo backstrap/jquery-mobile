@@ -8,6 +8,7 @@ combined/
 combine/
 compiled/
 dist/
+vendor/
 tmp/
 temp/
 *.swp
